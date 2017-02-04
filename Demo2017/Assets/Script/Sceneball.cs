@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Sceneball : MonoBehaviour {
+
+public class SceneBall : MonoBehaviour {
 	public Text txtScore;
 
 	// Use this for initialization
@@ -15,16 +16,21 @@ public class Sceneball : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+		
 	}
+	int Score = 0;
 
-	int score = 0;
-	public void Push1(){
-		score++;
-		txtScore.text = "Score :" + score.ToString ();
+	public void DoPushButton(){
+		Score++;
+		txtScore.text = "Score :" + Score.ToString();
+
+
 	}
-
-
-	public void Dochange (){
+	public void DoChangeScene(){
 		SceneManager.LoadScene (0);
+
+
+
 	}
+
 }
