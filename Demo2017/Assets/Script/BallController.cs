@@ -27,6 +27,9 @@ public class BallController : MonoBehaviour {
 		if (collision.gameObject.tag == "Floor") {
 			countCollosion++;
 			txtBall.text = "Floor : " + countCollosion.ToString ();
+		} else if (collision.gameObject.tag == "ceil") {
+			Destroy (gameObject);
 		}
+
 	}
 }

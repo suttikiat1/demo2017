@@ -55,3 +55,4 @@ E:\demo2017\Demo2017\Temp\bin\Debug\UnityEngine.HoloLens.xml
 E:\demo2017\Demo2017\Temp\bin\Debug\UnityEngine.VR.xml
 E:\demo2017\Demo2017\obj\Debug\Assembly-CSharp.dll
 E:\demo2017\Demo2017\obj\Debug\Assembly-CSharp.pdb
+E:\demo2017\Demo2017\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
